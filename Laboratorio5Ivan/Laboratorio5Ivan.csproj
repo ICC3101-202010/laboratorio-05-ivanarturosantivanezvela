@@ -32,6 +32,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ChangePasswordEventArgs.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="MailSender.cs" />
+    <Compile Include="RegisterEventArgs.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="SMSSender.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
